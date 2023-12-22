@@ -1,0 +1,288 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_section{
+    margin: 80px;
+    border: 1px solid #c9c9c9;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.image{
+   height: 370px;
+}
+.driveGirlImage{
+    width: 350px;
+    height: 370px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.content_section{
+    margin-left: 35px;
+    margin-top: 35px;
+    width: 550px;
+}
+.safe_driver{
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #5a5656;
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+.drive_icon{
+    display: flex;
+    margin-bottom: 20px;
+}
+.icon_svg{
+    width: 50px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid #5a5656;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.icon{
+    width: 35px;
+    height: 21px;
+}
+.top_content{
+    border-bottom: 1px solid #f9f0f0 ;
+    margin-right: 30px;
+    box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.1);
+}
+.logo_image{
+    width: 170px;
+    margin-top: 40px;
+}
+.middle_content{
+    display: flex;
+}
+.specification{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+
+.tick_icon{
+    width: 15px;
+    height: 15px;
+    margin-bottom: 15px
+}
+.click_with_spec{
+    display: flex;
+}
+.specs{
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #5a5656;
+}
+.bottom_content{
+    display: flex;
+    margin-top: 25px;
+}
+.m_icon{
+    width: 32px;
+    height: 30px;
+}
+.media_icon{
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+#icon_1{
+ background-color: #fd8d1c;
+ border-top-left-radius: 27px;
+ border-bottom-left-radius: 27px
+
+}
+#icon_2{
+background-color: rgb(114 223 114);
+}
+#icon_3{
+background-color:#747272;
+border-bottom-right-radius: 27px;
+border-top-right-radius: 27px;
+}
+.section_for_border{
+    border-right: 1px solid #f9f0f0;
+    box-shadow: 5px 0 3px -3px rgba(0, 0, 0, 0.1);
+    
+}
+.AED_section{
+    margin: 50px 50px 20px 30px;
+}
+
+.aed_text{
+    font-size: 30px;
+    color: #5a5656;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.way_1{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.road_icon{
+    width: 25px;
+    margin-right: 13px;
+}
+.way_text{
+    font-size: 18px;
+    color: #5a5656;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.logo_for_small_screen{
+    display: none;
+}
+.AED_section_small{
+    display: none;
+}
+.specification_small{
+    display: none;
+}
+.bottom_content_small{
+    display: none;
+}
+.bottom_content .media_icon img{
+    fill: #f9f0f0;
+}
+@media screen and (max-width: 768px) {
+    
+    .main_section {
+      flex-direction: column;
+    }
+    .content_section{
+        margin-left: 50px;
+    }
+    .top_content{
+        display: flex;
+    }
+    .topcontent_small{
+        margin-right: -40px;
+        margin-left: 20px;
+    }
+    .logo_for_small_screen{
+        display: flex;
+    }
+    .logo_image{
+        width: 100px;
+    }
+   
+    .content_section {
+      width: 100%;
+      margin: 20px 0;
+    }
+    .middle_content{
+        display: none;
+    }
+       .section_for_border {
+      border-right: none;
+    }
+  
+    .AED_section {
+      display: none;
+    }
+    .AED_section_small{
+        display: flex;
+        margin: 20px 100px 10px 20px;
+    }
+    .one_way{
+        margin-right: 60px;
+    }
+    .aed_text{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .specification_small{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .specs{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .tick_icon{
+        width: 10px;
+        height: 10px;
+    }
+    .bottom_content{
+        display: none;
+    }
+    #icon_1, #icon_2, #icon_3{
+    width: 182px;
+    height: 48px;
+   
+    }
+    #icon_1{
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 15px;
+        margin-right: 4px;
+    }
+    #icon_2{
+        margin-right: 4px;
+    }
+    #icon_3{
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 4px;
+    }
+   .bottom_content_small{
+    display: flex;
+    margin-bottom: -20px;
+   }
+   .driveGirlImage{
+    width: 100%;
+    border-top-right-radius: 15px; 
+        border-bottom-left-radius: 0px;
+   }
+   .logo_image{
+    margin-top: -60px;
+}
+.specification_small{
+    margin-bottom: 20px;
+}
+  }
+  @media screen and (max-width: 550px) {
+    .driveGirlImage{
+        width: 100%;
+        border-top-right-radius: 15px; 
+        border-bottom-left-radius: 0px;
+    }
+    .safe_driver{
+        font-size: 20px;
+        margin-right: 40px;
+    }
+    .icon_svg{
+        width: 35px;
+        height: 28px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+    }
+    .drive_icon{
+        margin-right: 100px;
+    }
+    .icon{
+        width: 15px;
+    }
+    .logo_image{
+        margin-top: -60px;
+        width: 80px;
+    }
+    .specification_small{
+        margin-bottom: 20px;
+    }
+  }
