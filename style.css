@@ -254,7 +254,7 @@ border-top-right-radius: 27px;
     margin-bottom: 20px;
 }
   }
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 600px) and (min-width: 400px) {
     .driveGirlImage{
         width: 100%;
         border-top-right-radius: 15px; 
@@ -262,7 +262,7 @@ border-top-right-radius: 27px;
     }
     .safe_driver{
         font-size: 20px;
-        margin-right: 40px;
+        margin-right: 10px;
     }
     .icon_svg{
         width: 35px;
@@ -281,8 +281,12 @@ border-top-right-radius: 27px;
     .logo_image{
         margin-top: -60px;
         width: 80px;
+        margin-left: -102px;
     }
     .specification_small{
         margin-bottom: 20px;
+    }
+    .AED_section_small{
+        margin: 20px 40px 10px 20px 
     }
   }
